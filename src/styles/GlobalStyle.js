@@ -46,6 +46,11 @@ const GlobalStyle = styled.createGlobalStyle`
   html {
     font-size: 62.5%;
     letter-spacing: 0;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   img,
@@ -126,11 +131,6 @@ const GlobalStyle = styled.createGlobalStyle`
   input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-  }
-
-  /* Firefox */
-  input[type='number'] {
-    -moz-appearance: textfield;
   }
 
   select {
