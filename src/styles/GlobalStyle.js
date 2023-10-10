@@ -44,7 +44,7 @@ const GlobalStyle = styled.createGlobalStyle`
   }
 
   html {
-    font-size: 62.5%;
+    font-size: 67.5%;
     letter-spacing: 0;
     width: 100%;
     margin: 0 auto;

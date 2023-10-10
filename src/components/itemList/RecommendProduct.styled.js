@@ -9,6 +9,10 @@ export const RecItem = styled.div`
 
 export const RecTitle = styled.div`
   display: flex;
+
+  & > img {
+    padding: 10px;
+  }
 `;
 
 export const RecImg = styled.div`
@@ -21,5 +25,21 @@ export const RecImg = styled.div`
 
   & > img:first-child {
     margin-left: 0px;
+  }
+`;
+
+export const RecText = styled.div`
+  width: 140px;
+
+  & > p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
+  }
+
+  & span {
+    font-weight: bold;
+    margin-right: 3px;
   }
 `;
